@@ -30,19 +30,19 @@
     ############################################################################
     
     # The base url of the webservice where SSS is deployed
-    "base_url" : "http://localhost:8080/",
+    #"base_url" : "http://localhost:8080/",
     # if you are using Apache, you should probably use this base_url instead
-    # "base_url" : "http://localhost/sss/",
+     "base_url" : "http://hydro10.sdsc.edu/sss/",
     
     # The number of collections that SSS will create and give to users to deposit content into
-    "num_collections" : 10,
+    "num_collections" : 1,
     
     # The directory where the deposited content should be stored
-    "store_dir" : "./store/",
+    "store_dir" : "../../store/",
     # If you are using Apache you should set the store directory in full
     
     # The directory where incoming content will be temporarily stored
-    "tmp_dir" : "./tmp/",
+    "tmp_dir" : "../../tmp/",
     
     # The chunk size used to copy file streams into and out of the temp directory
     "copy_chunk_size" : 8096,
